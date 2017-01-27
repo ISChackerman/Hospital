@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>       
+        <meta charset="utf-8"> 
+        <title>Página </title>
+    </head>
+<body>
+<h1>CENTRO MÉDICO PUERTA DE HIERRO</h1>
+<hr>
+<p>Appointment type</p>
+<input type="radio" name="AppointmentButton" id="soon" value="Pronto">
+<label for="Pronto">Soon appointment(5-14 days): </label>
+<p></p>
+<input type="radio" name="AppointmentButton" id="regular" value="Regular">
+<label for="Regular">Regular appointment (2-6 weeks): </label>
+<br/> <br/>
+<input type="radio" name="AppointmentButton" id="routine" value="Rutina">
+<label for="Rutina">Routine appointment (1-6 months): </label>
+<br/> <br/>
+<p>In which hospital would you like your appointment?.</p>
+<select>
+  <option value="andares">PH ANDARES</option>
+  <option value="gdl sur">PH GDL SUR</option>
+  <option value="tepic">PH TEPIC</option>
+  <option value="vallarta">PH VALLARTA</option>
+</select>
+<hr>
+
+<h1>Personal Information</h1>
+<center>The information given in this paper will be under our &nbsp;<a href="https://www.youtube.com/">privacy information terms</a></center>
+<form action="http://www.youtube.com" method="get">
+<p>Who is this appointment for?</p>
+<input type="radio" name="WhoAppointment" id="self" value="myself">
+<label for="Rutina">Myself. </label>
+<br/> <br/>
+<input type="radio" name="WhoAppointment" id="self" value="other">
+<label for="Rutina">Other person.</label>
+<br/> <br/>
+<p>PATIENT INFO (AS IN PASSPORT):</p>
+<div class="row">
+  <form class="col s12">
+<p>
+<div class="input-field col s6">
+<label for="name">Name: </label>
+<input type="text" name="name" id="name" text-align= "center"; placeholder="(as in Passport)"> 
+</div>
+<br/> <br/>
+<label for="apellido">Middle Name: </label>
+<input type="text" name="midname" id="midname" placeholder="(as in Passport)">
+<br/> <br/>
+<label for="last">Last Name: </label>
+<input type="text" name="lastname" id="lastname" placeholder="(as in Passport)">
+<br/> <br/>
+Gender:
+<input type="radio" name="gender" id="male" value="Male">
+<label for="Rutina">Male. </label>
+<input type="radio" name="gender" id="female" value="Female">
+<label for="Rutina">Female.</label>
+<br/> <br/>
+
+  Birthday:
+  <input type="date" name="bday">
+<br/> <br/>
+
+Country:
+<select>
+  <option value="mexico">MEXICO</option>
+  <option value="canada">CANADA</option>
+  <option value="US">US</option>
+  <option value="other">OTHER</option>
+</select>
+<br/> <br/>
+<label for="city">City: </label>
+<input type="text" name="city" id="city">
+<br/> <br/>
+<label for="city">Postal Code: </label>
+<input type="text" name="poscode" id="poscode">
+<br/> <br/>
+<label for="phone">Phone number:</label>
+<input type="text" name="phone" id="phone" placeholder="(country code) phone number">
+<br/> <br/>
+<label for="mail">E-mail: </label>
+<input type="text" name="mail" id="mail">
+<br/> <br/>
+<hr>
+</form>
+</div>
+
+<h1>Patient Detailed Info.</h1>
+<center>The information given in this paper will be under our &nbsp;<a href="https://www.youtube.com/">privacy information terms</a></center>
+<br/> <br/>
+Clinical Department Involved?
+<select>
+  <option value="dermatology">DERMATOLOGY</option>
+  <option value="plastic surgery">PLASTIC SURGERY</option>
+  <option value="cardiology">CARDIOLOGY</option>
+  <option value="neurology">NEUROLOGY</option>
+  <option value="pediatry">PEDIATRY</option>
+</select>
+<br/><br/>
+<p>Patient diagnosis information.<p/>
+<textarea name="text" id="patientdiagnosisinfo" cols="68" rows="5" placeholder="Please list them in here.">
+</textarea>
+<br/><br/>
+<p>Are you under any medications?
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="meds" id="yesmeds" value="Yes">
+<label for="Rutina">YES. </label>
+<input type="radio" name="meds" id="nomeds" value="No">
+<label for="Rutina">NO.</label><p/>
+<textarea name="text" id="underanymeds" cols="68" rows="5" placeholder="Please list them in here.">
+</textarea>
+<br/><br/>
+<p>WEIGHT
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="weight" id="kilos" value="Kilos">
+<label for="Rutina">KILOS. </label>
+<input type="radio" name="weight" id="pounds" value="Pounds">
+<label for="Rutina">POUNDS.</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<textarea name="text" cols="10" rows="2" id="patientweight">
+</textarea><p/>
+<br/><br/>
+<p>HEIGHT
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="height" id="meters" value="Meters">
+<label for="Rutina">METERS. </label>
+<input type="radio" name="height" id="feet" value="Feet">
+<label for="Rutina">FEETS.</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<textarea name="text" cols="10" rows="2" id="patientheight">
+</textarea><p/>
+<br/><br/>
+<p>Allergies to any medications?
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="allergies" id="yesallergies" value="Yes">
+<label for="Rutina">YES. </label>
+<input type="radio" name="allergies" id="noallergies" value="No">
+<label for="Rutina">NO.</label><p/>
+<textarea name="text" cols="68" rows="5" placeholder="Please Specify." id="patientmedicationallergies">
+</textarea>
+<br/><br/>
+<p>Allergies to food?
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="foodallergies" id="yesfoodallergies" value="Yes">
+<label for="Rutina">YES. </label>
+<input type="radio" name="foodallergies" id="nofoodallergies" value="No">
+<label for="Rutina">NO.</label><p/>
+<textarea name="text" cols="68" rows="5" placeholder="Please Specify." id="patientfoodallergies">
+</textarea>
+<br/><br/>
+<p>Allergy to Latex?
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="latexallergy" id="yeslatexallergy" value="Yes">
+<label for="Rutina">YES. </label>
+<input type="radio" name="latexallergy" id="nolatexallergy" value="No">
+<label for="Rutina">NO.</label><p/>
+<br/><br/>
+
+<p><u>PREVIOUS TREATMENTS RECEIVED</u>.</p>
+
+<p>is this a Regular Check-up?
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="regularCheckup" id="yesregcheck" value="Yes">
+<label for="Rutina">YES. </label>
+<input type="radio" name="regularCheckup" id="noregcheck" value="No">
+<label for="Rutina">NO.</label>
+<br/><br/>
+<p>Have you received Radiation?
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="radiation" id="yesradiation" value="Yes">
+<label for="Rutina">YES. </label>
+<input type="radio" name="radiation" id="noradiation" value="No">
+<label for="Rutina">NO.</label><p/>
+<textarea name="text" cols="68" rows="5" placeholder="Please outline what type of radiation and the specific dates." id="patientradiation">
+</textarea><p/>
+<br/><br/>
+<p>Have you previously received chemotherapy treatment?
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="chemo" id="yeschemo" value="Yes">
+<label for="Rutina">YES. </label>
+<input type="radio" name="chemo" id="nochemo" value="No">
+<label for="Rutina">NO.</label><p/>
+<textarea name="text" cols="68" rows="5" placeholder="Please list the names of the medications you received, inlcuding specific dates." id="patientchemo">
+</textarea><p/>
+<br/><br/>
+<p>Have you had any operations?
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="operations" id="yesoperations" value="Yes">
+<label for="Rutina">YES. </label>
+<input type="radio" name="operations" id="nooperations" value="No">
+<label for="Rutina">NO.</label><p/>
+<textarea name="text" cols="68" rows="5" placeholder="Please specify." id="patientoperations">
+</textarea><p/>
+<br/><br/>
+<hr>
+
+
+
+<h1>Other Information</h1>
+Does the patient have insurance:
+<select>
+  <option value="yes">YES</option>
+  <option value="no">NO</option>
+</select>
+<br/><br/>
+<p><u>MEDICAL CONCERN:</u>.</p>
+<p>What is the primary medical problem or diagnosis fo the appointment request?<p/>
+<textarea name="text" cols="68" rows="6" placeholder="Please describe as specific as possible." id="patientmedicalproblem">
+</textarea>
+<br/><br/>
+<p><u>APPOINTMENT INFO:</u>.</p>
+<p>(Appointments are set between 1 to 5 days)<p/>
+
+<p>Appointment Date First Choice:   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 
+  <input type="date" name="apnt"> &nbsp;&nbsp;&nbsp;  to &nbsp;&nbsp; <input type="date" name="bday"> <p/>  
+<br/><br/>
+
+<p>Appointment Date Second Choice:&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+  <input type="date" name="apnt"> &nbsp;&nbsp;&nbsp;  to &nbsp;&nbsp; <input type="date" name="bday"> <p/> 
+
+
+<br/> <br/>
+<hr>
+
+
+<h1>Trip Details</h1>
+Languages you Speak:
+<select>
+  <option value="English" id="englishspeak">English</option>
+  <option value="French" id="frenchspeak">Frech</option>
+  <option value="Spanish" id="spanishspeak">Spanish</option>
+</select>
+<br/><br/>
+<p>Would you like an Interpreter service?
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="interpreterservice" id="yesinterpreterservice" value="Yes">
+<label for="Rutina">YES. </label>
+<input type="radio" name="interpreterservice" id="nointerpreterservice" value="No">
+<label for="Rutina">NO.</label>
+<br/><br/>
+<p>Would you like us to get you hotel accomodation near the Hospital?
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="hotel" id="yeshoteltransport" value="Yes">
+<label for="Rutina">YES. </label>
+<input type="radio" name="hotel" id="nohoteltransport" value="No">
+<label for="Rutina">NO.</label>
+<br/><br/>
+<label for="last">Hotel Name: </label>
+<input type="text" name="hotelname" id="hotelname">
+<br/> <br/>
+Number of guests travelling with you?
+<select>
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+</select>
+<br/><br/>
+Number of rooms needed?
+<select>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
+<br/><br/>
+<p>Transportation form Hospital to Hotel?
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="hoteltransportation" id="yeshoteltransport" value="Yes">
+<label for="Rutina">YES. </label>
+<input type="radio" name="hoteltransportation" id="nohoteltransport" value="No">
+<label for="Rutina">NO.</label>
+<br/><br/>
+<p>Special Diet during your hospital Stay
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="diet" id="yesdiet" value="Yes">
+<label for="Rutina">YES. </label>
+<input type="radio" name="diet" id="nodiet" value="No">
+<label for="Rutina">NO.</label>
+<br/><br/>
+<label for="last">Specify: </label>
+<input type="text" name="specialdiet" id="specialdiet">
+<br/> <br/>
+<p>Please select the information you would like about the Country:</p>
+<input type="radio" name="docs1" id="tequiladoc" value="tequiladoc">
+<label for="Rutina">TEQUILA.doc </label>
+<br/><br/>
+<input type="radio" name="docs2" id="vtadoc" value="vtadoc">
+<label for="Rutina">VALLARTA.doc</label>
+<br/><br/>
+<input type="radio" name="docs3" id="culturedoc" value="culturedoc">
+<label for="Rutina">CULTURAL VISITS.doc </label>
+<br/><br/>
+<input type="radio" name="docs4" id="mexicodoc" value="mexicodoc">
+<label for="Rutina">MEXICAN COUSIN.doc</label>
+<br/><br/>
+<input type="radio" name="docs5" id="tourdoc" value="tourdoc">
+<label for="Rutina">TOURS.doc </label>
+<br/><br/>
+
+
+
+<input type="submit" value="Send ">
+<input type="reset" value= "Restablish">
+</p>
+</form>
+<!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

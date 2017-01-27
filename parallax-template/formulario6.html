@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Puerta de Hierro</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body bgcolor="#FCFBE3">
+<div class="containerF1">
+  <div class="section">
+  <div class="row">
+        <div class="col s1"></div>
+        <div class="col s10">
+      <h1 align="center">Trip Details</h1>
+      <div class="row">
+        <form class="col s4">
+          <label> Languages you Speak: </label>
+          <select class="browser-default">
+            <option value="0" id="default">Select</option>
+            <option value="English" id="englishspeak">English</option>
+            <option value="French" id="frenchspeak">Frech</option>
+            <option value="Spanish" id="spanishspeak">Spanish</option>
+          </select>
+        </form>
+      </div>
+      <br/><br/>
+      <p>Would you like an Interpreter service?
+      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="interpreterservice" id="yesinterpreterservice" value="Yes">
+      <label for="yesinterpreterservice">YES. </label>
+      <input type="radio" name="interpreterservice" id="nointerpreterservice" value="No">
+      <label for="nointerpreterservice">NO.</label>
+      <br/><br/>
+      <p>Would you like us to get you hotel accomodation near the Hospital?
+      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="hotel" id="yeshoteltransport" value="Yes">
+      <label for="yeshoteltransport">YES. </label>
+      <input type="radio" name="hotel" id="nohoteltransport" value="No">
+      <label for="nohoteltransport">NO.</label>
+      <br/><br/>
+      <label for="hotelname">Hotel Name: </label>
+      <input type="text" name="hotelname" id="hotelname">
+      <br/> <br/>
+      <div class="row">
+        <form class="col s4">
+          <label>Number of guests travelling with you?</label>
+            <select class="browser-default">
+              <option value="-1">Select</option>
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+            </select>
+          </form>
+        </div>
+      <br/><br/>
+      <div class="row">
+        <form class="col s4">
+          <label> Number of rooms needed? </label>
+          <select class="browser-default">
+            <option value="0">Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </form>
+      </div>
+      <br/><br/>
+      <p>Transportation form Hospital to Hotel?
+      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="hoteltransportation" id="yeshoteltransport" value="Yes">
+      <label for="yeshoteltransport">YES. </label>
+      <input type="radio" name="hoteltransportation" id="nohoteltransport" value="No">
+      <label for="nohoteltransport">NO.</label>
+      <br/><br/>
+      <p>Special Diet during your hospital Stay
+      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="diet" id="yesdiet" value="Yes">
+      <label for="yesdiet">YES. </label>
+      <input type="radio" name="diet" id="nodiet" value="No">
+      <label for="nodiet">NO.</label>
+      <br/><br/>
+      <label for="specialdiet">Specify: </label>
+      <input type="text" name="specialdiet" id="specialdiet">
+      <br/> <br/>
+      <p>Please select the information you would like about the Country:</p>
+      <input type="radio" name="docs1" id="tequiladoc" value="tequiladoc">
+      <label for="tequiladoc">TEQUILA.doc </label>
+      <br/><br/>
+      <input type="radio" name="docs2" id="vtadoc" value="vtadoc">
+      <label for="vtadoc">VALLARTA.doc</label>
+      <br/><br/>
+      <input type="radio" name="docs3" id="culturedoc" value="culturedoc">
+      <label for="culturedoc">CULTURAL VISITS.doc </label>
+      <br/><br/>
+      <input type="radio" name="docs4" id="mexicodoc" value="mexicodoc">
+      <label for="mexicodoc">MEXICAN COUSIN.doc</label>
+      <br/><br/>
+      <input type="radio" name="docs5" id="tourdoc" value="tourdoc">
+      <label for="tourdoc">TOURS.doc </label>
+      <br/><br/></p>
+<div class="row">
+  <div class="col s2"></div>
+  <div class="col s2"></div>
+  <div class="col s1"></div>
+  <div class="col s2">
+  <button class="btn waves-effect waves-light" type="submit" name="action">Send
+    <i class="material-icons right">send</i>
+  </button>
+  </div>
+  </div>
+
+</form>
+<!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

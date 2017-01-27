@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Puerta de Hierro</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body bgcolor="#FCFBE3">
+<div class="containerF1">
+  <div class="section">
+  <div class="row">
+        <div class="col s1"></div>
+        <div class="col s10">
+      <h1 align="center">Patient Detailed Info</h1>
+      <p align="center">The information given in this paper will be under our &nbsp;<a href="https://www.youtube.com/">privacy information terms</a></p>
+      <br/> <br/>
+      <div class="row">
+        <form class="col s4">
+          <label> Clinical Department Involved? </label>
+          <select class="browser-default">
+            <option value="0">Select</option>
+            <option value="dermatology">DERMATOLOGY</option>
+            <option value="plastic surgery">PLASTIC SURGERY</option>
+            <option value="cardiology">CARDIOLOGY</option>
+            <option value="neurology">NEUROLOGY</option>
+            <option value="pediatry">PEDIATRY</option>
+          </select>
+        </form>
+      </div>
+      <br/><br/>
+      <p>Patient diagnosis information.<p/>
+      <textarea name="text" id="patientdiagnosisinfo" cols="68" rows="5" placeholder="Please list them in here.">
+      </textarea>
+      <br/><br/>
+      <p>Are you under any medications?
+      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="meds" id="yesmeds" value="Yes">
+      <label for="yesmeds">YES. </label>
+      <input type="radio" name="meds" id="nomeds" value="No">
+      <label for="nomeds">NO.</label><p/>
+      <textarea name="text" id="underanymeds" cols="68" rows="5" placeholder="Please list them in here.">
+      </textarea>
+      <br/><br/>
+      <p>WEIGHT
+      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="weight" id="kilos" value="Kilos">
+      <label for="kilos">KILOS. </label>
+      <input type="radio" name="weight" id="pounds" value="Pounds">
+      <label for="pounds">POUNDS.</label>&nbsp;&nbsp;&nbsp;&nbsp;
+      <textarea name="text" cols="10" rows="2" id="patientweight">
+      </textarea><p/>
+      <br/><br/>
+      <p>HEIGHT
+      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="height" id="meters" value="Meters">
+      <label for="meters">METERS. </label>
+      <input type="radio" name="height" id="feet" value="Feet">
+      <label for="feet">FEETS.</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <textarea name="text" cols="10" rows="2" id="patientheight">
+      </textarea><p/>
+      <br/><br/>
+      <p>Allergies to any medications?
+      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="allergies" id="yesallergies" value="Yes">
+      <label for="yesallergies">YES. </label>
+      <input type="radio" name="allergies" id="noallergies" value="No">
+      <label for="noallergies">NO.</label><p/>
+      <textarea name="text" cols="68" rows="5" placeholder="Please Specify." id="patientmedicationallergies">
+      </textarea>
+      <br/><br/>
+      <p>Allergies to food?
+      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="foodallergies" id="yesfoodallergies" value="Yes">
+      <label for="yesfoodallergies">YES. </label>
+      <input type="radio" name="foodallergies" id="nofoodallergies" value="No">
+      <label for="nofoodallergies">NO.</label><p/>
+      <textarea name="text" cols="68" rows="5" placeholder="Please Specify." id="patientfoodallergies">
+      </textarea>
+      <br/><br/>
+      <p>Allergy to Latex?
+      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="latexallergy" id="yeslatexallergy" value="Yes">
+      <label for="yeslatexallergy">YES. </label>
+      <input type="radio" name="latexallergy" id="nolatexallergy" value="No">
+      <label for="nolatexallergy">NO.</label><p/>
+      <br/><br/>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+  <div class="col s2"></div>
+  <div class="col s2"></div>
+  <div class="col s1"></div>
+  <div class="col s2">
+  <button class="btn waves-effect waves-light" type="submit" name="action"><a class="white-text" href="formulario4.html">Continue</a>
+    <i class="material-icons right">send</i>
+  </button>
+  </div>
+  </div>
+</div>
+
+</form>
+<!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
